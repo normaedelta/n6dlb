@@ -31,7 +31,7 @@ df -h                                       # 查看磁盘信息
 ```bash
 bash -c "$(curl -fsSLk https://docs.n6delta.com/install_script/manage.sh)"
 ```
-![安装成功](https://docs.n6delta.com/v3.4.6/img/online-install-succ.png)
+![安装成功](https://docs.n6delta.com/v3.4.6/assets/online-install-succ.CA48ZwCW.png)
 <!-- sudo bash -c "$(curl -fsSLk https://www.normaedelta.com.cn/n6_install_v344.sh)" -->
 ### 离线安装
 注: 依赖 NetworkManage 1.41.3 版本以上([详情](https://docs.n6delta.com/v3.4.6/manual/operation-manual/soft-lb-install/environment.md#操作系统及NetworkManage版本要求))
@@ -46,12 +46,12 @@ bash -c "$(curl -fsSLk https://docs.n6delta.com/install_script/manage.sh)"
 sudo xz -d n6_x64_3.4.6.tar.gz.xz 
 sudo tar -zxf n6_x64_3.4.6.tar.gz && sudo bash n6_install.sh
 ```
-![安装成功](https://docs.n6delta.com/v3.4.6/img/offline-install-succ.png)
+![安装成功](https://docs.n6delta.com/v3.4.6/assets/offline-install-succ.C59RKZA1.png)
 
 ## 管理节点控制台
 安装成功以后，你可以打开浏览器访问 https://[manage-ip]/ 进行配置。manage-ip是安装时指定的管理IP。
-![登录页面](https://docs.n6delta.com/v3.4.6/img/login.png)
+![登录页面](https://docs.n6delta.com/v3.4.6/assets/login.BNxD5zVY.png)
 
-[HTTP虚拟服务转发流量](/config/quick-guide/l7-vs-config.html)
+[HTTP虚拟服务转发流量](https://docs.n6delta.com/v3.4.6/config/quick-guide/l7-vs-config.html)
 
 [完整功能见用户手册](https://docs.n6delta.com/v3.4.6/manual/operation-manual/slb/virtual-service.html)
