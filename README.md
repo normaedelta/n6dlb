@@ -5,7 +5,7 @@
 本系统由管理节点与转发引擎组成，先安装管理节点，然后添加转发引擎。(管理节点用于配置转发规则等, 转发引擎实现转发流量等)
 
 ## 环境
-* 操作系统：Linux（如CentOS/Ubuntu/统信/Openeuler/Kylin等）
+* 操作系统：Linux（如CentOS/Ubuntu/统信/Openeuler/Kylin/redhat等）
 * CPU 指令架构：x86_64, arm64
 * 最低资源：2 核 CPU / 8 GB 内存 / 10 GB 磁盘
 * 请确保这些[端口](https://docs.n6delta.com/v3.4.6/manual/operation-manual/soft-lb-install/environment.md##端口)未被占用，否则安装会失败。
