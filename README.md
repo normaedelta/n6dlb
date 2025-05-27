@@ -36,11 +36,12 @@ bash -c "$(curl -fsSLk https://docs.n6delta.com/install_script/manage.sh)"
 ### 离线安装
 注: 依赖 NetworkManage 1.41.3 版本以上([详情](https://docs.n6delta.com/v3.4.6/manual/operation-manual/soft-lb-install/environment.md#操作系统及NetworkManage版本要求))
 1. 下载安装包至服务器
-    - 浏览器下载
+        x86架构[n6_x64_3.4.6.tar.gz](https://github.com/normaedelta/n6dlb/releases/download/3.4.6/n6_x64_3.4.6.tar.gz.xz),MD5: 128dff73c27d954ea870cbbc6a7f8818
 
-        x86架构[n6_x64_3.4.6.tar.gz](https://github.com/normaedelta/n6dlb/releases/download/3.4.6/n6_x64_3.4.6.tar.gz.xz)
+        arm64架构[n6_arm_3.4.6.tar.gz](https://github.com/normaedelta/n6dlb/releases/download/3.4.6/n6_arm64_3.4.6.tar.gz.xz),MD5: cfa4834493e261c355b1fbbac26a8278
 
-        arm64架构[n6_arm_3.4.6.tar.gz](https://github.com/normaedelta/n6dlb/releases/download/3.4.6/n6_x64_3.4.6.tar.gz.xz)
+        也可以使用百度网盘下载：链接: https://pan.baidu.com/s/1VfdWt972VG8QgEIc5BM6cg 提取码: NDLB 
+        
 2. 解压并安装
 ```bash
 sudo xz -d n6_x64_3.4.6.tar.gz.xz 
